@@ -1,0 +1,10 @@
+#!name=Google重定向
+#!desc=最后更新时间 2024-06-01
+
+[Rule]
+# > 其他
+
+[URL Rewrite]
+# Redirect Google Service
+^https?:\/\/(www.)?g\.cn https://www.google.com 302
+^https?:\/\/(www.)?google\.cn https://www.google.com 302
