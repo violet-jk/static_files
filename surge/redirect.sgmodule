@@ -1,8 +1,9 @@
-#!name=Google重定向
-#!desc=最后更新时间 2024-06-01
+#!name=Google重定向+其他
+#!desc=最后更新时间 2024-06-09
 
 [Rule]
-# > 其他
+DOMAIN-SUFFIX,zhihuifangdong.net,DIRECT
+
 
 [URL Rewrite]
 # Redirect Google Service
