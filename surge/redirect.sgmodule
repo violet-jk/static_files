@@ -3,6 +3,7 @@
 
 [Rule]
 DOMAIN-SUFFIX,zhihuifangdong.net,DIRECT
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
 
 
 [URL Rewrite]
