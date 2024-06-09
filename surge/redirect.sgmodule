@@ -5,6 +5,7 @@
 # 分流规则/去广告
 DOMAIN-SUFFIX,zhihuifangdong.net,DIRECT
 #RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT-TINYGIF
+RULE-SET,https://raw.githubusercontent.com/violet-jk/static_files/main/surge/advertsiting.list,REJECT-TINYGIF
 
 [URL Rewrite]
 # Redirect Google Service
