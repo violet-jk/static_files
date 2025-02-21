@@ -1,13 +1,10 @@
-#!name=Google重定向+其他
-#!desc=最后更新时间 2024-06-09
+#!name=自定义规则
 
 [Rule]
 # 分流规则/去广告
 DOMAIN-SUFFIX,zhihuifangdong.net,DIRECT
-#RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT-TINYGIF
-RULE-SET,https://raw.githubusercontent.com/violet-jk/static_files/main/surge/advertsiting.list,REJECT-TINYGIF
 
-[URL Rewrite]
+#[URL Rewrite]
 # Redirect Google Service
-^https?:\/\/(www.)?g\.cn https://www.google.com 302
-^https?:\/\/(www.)?google\.cn https://www.google.com 302
+#^https?:\/\/(www.)?g\.cn https://www.google.com 302
+#^https?:\/\/(www.)?google\.cn https://www.google.com 302
